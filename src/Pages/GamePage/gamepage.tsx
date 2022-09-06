@@ -1,7 +1,5 @@
-import {useEffect, useState,useContext} from 'react';
-import { useHistory } from 'react-router';
+import {useContext} from 'react';
 import './style.css'
-import Card from '../../Components/Cards/Cards';
 import Deck from '../../Components/Deck/Deck';
 import { NameContext } from '../../Context/NameContext';
 

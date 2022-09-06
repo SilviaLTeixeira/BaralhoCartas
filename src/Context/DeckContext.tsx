@@ -1,5 +1,5 @@
 import axios from "axios";
-import { createContext, ReactNode, useEffect, useState } from "react";
+import { createContext, ReactNode, useState } from "react";
 
 
 interface DeckContextData {

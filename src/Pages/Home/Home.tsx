@@ -1,3 +1,4 @@
+
 import { useContext, useEffect } from 'react';
 import './style.css'
 import '../../App.css'
@@ -18,6 +19,7 @@ function Home(){
             startDeck() 
         }
         start()
+    // eslint-disable-nextline
     },[id])
     return(
         <form>

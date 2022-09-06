@@ -1,14 +1,11 @@
-import {memo, useContext, useEffect, useState } from 'react';
-import axios from 'axios';
+import {memo, useContext, useState } from 'react';
 import Cards from '../Cards/Cards';
 import "./Deck.css";
 import "../../App.css"
 import { DeckContext } from '../../Context/DeckContext';
 
-function rand() {
-    return Math.floor(Math.random() * 360 + 1);
-}
 const Deck = () => {
+    // eslint-disable-next-line
     const[isButtonEnabled, setIsButtonEnabled] = useState(true)
     const {cards, addCard,success,rotate} = useContext(DeckContext)
     function handleClick(){
